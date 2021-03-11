@@ -54,11 +54,13 @@ fake_useragent a library from which we will import UserAgent.
 
 # Data Cleaning
 
-The search files were quite easy to clean, they required mainly extracting data from strings, deleting some additional text and changing Data type to the appropriate one.
+The [search files](https://github.com/Jyotika-Kalra/E-Commerce-Project/blob/master/Smartphones/DataCleaning.ipynb) were quite easy to clean, they required mainly extracting data from strings, deleting some additional text and changing Data type to the appropriate one.
 Extracting the Asin from the Urls required some additional work "cutting" the Urls into pieces and keeping just the value of interest.
 
-The product files instead required a way longer and more complicated journey: when scraping I retrieved all possible data that on the Amazon website appeared to be stored in different tables.
-To open this .ipynb please consider using [nbviewer](https://nbviewer.jupyter.org/) and paste the github url in the bar.
+The [product files](https://github.com/Jyotika-Kalra/E-Commerce-Project/blob/master/Smartphones/DataCleaning.ipynb) instead required a way longer and more complicated journey: when scraping I retrieved all possible data that on the Amazon website appeared to be stored in different tables.
+
+To open search and product .ipynb please consider using [nbviewer](https://nbviewer.jupyter.org/) and paste the github url in the bar.
+
 When importing this data in my Visual Studio Code notebook I realized how nested it was (Dictionary in dictionary) with several values of interest being stored in the same cells of the df.
 
 Please follow step by step the notebook to see all required steps until data was finally cleaned for my purpose.
@@ -71,6 +73,10 @@ The cleaned data has been subsequently pushed to Mysql for further analysis.
 To achieve this result I used PyMySQL (here all instructions to install it), an interface for connecting to a MySQL database server from Python. It implements the Python Database API v2. 0 and contains a pure-Python MySQL client library. Other availabale options are MySQL/connector for Python or MySQLdb.
 
 More details about how to create the data source, creating the engine and the connection to Mysql are povided in the Python notebook.
+
+# Please note:
+
+I have only shown 'SmartPhones' scraping in my Git hub and other products can be scarped and then cleaned in similar way like smartphones.
 
 # Legal Terms
 All data has been used only for educational purpose.
