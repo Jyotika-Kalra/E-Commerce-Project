@@ -74,3 +74,7 @@ More details about how to create the data source, creating the engine and the co
 
 # Legal Terms
 All data has been used only for educational purpose.
+
+<p align="center">
+  <img width="600" height="150" src="https://t4.ftcdn.net/jpg/03/49/52/85/360_F_349528536_95ktby9in4wxODsUJjsQGtk4t324h3Qh.jpg">
+</p>
