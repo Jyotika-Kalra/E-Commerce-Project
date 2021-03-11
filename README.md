@@ -74,6 +74,10 @@ To achieve this result I used PyMySQL (here all instructions to install it), an 
 
 More details about how to create the data source, creating the engine and the connection to Mysql are povided in the Python notebook.
 
+# Visualization
+
+All the results which has been fetched by SQL has been visaully shown in [Plotly](https://plotly.com/) and can be easily accessible in the folder [Plotly Visualization](https://github.com/Jyotika-Kalra/E-Commerce-Project/tree/master/Plotly%20Visualization). It is recommended to use [nbviewer](https://nbviewer.jupyter.org/) as the files are big in size.
+
 # Please note:
 
 I have only shown 'SmartPhones' scraping in my Git hub and other products can be scarped and then cleaned in similar way like smartphones.
