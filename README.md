@@ -78,6 +78,10 @@ More details about how to create the data source, creating the engine and the co
 
 I have only shown 'SmartPhones' scraping in my Git hub and other products can be scarped and then cleaned in similar way like smartphones.
 
+## Dashboard analysis for electronics products:
+
+[Products Analysis Dashoard](https://public.tableau.com/profile/jyotika4169#!/vizhome/InsightsforAmazon/InsightsforAmazon)
+
 # Legal Terms
 All data has been used only for educational purpose.
 
